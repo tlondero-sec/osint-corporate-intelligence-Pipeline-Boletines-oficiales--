@@ -94,3 +94,30 @@ while current_date >= STOP_DATE:
 print(f"\n=== Proceso Finalizado ===")
 print(f"Archivos nuevos descargados: {descargados}")
 print(f"Archivos omitidos (existentes): {omitidos}")
+
+```
+
+---
+
+## 🗺️ Roadmap de Desarrollo (Próximas Fases)
+
+* **Fase 1: Extracción Textual y Normalización**
+* Procesamiento masivo del corpus de documentos locales para convertir los archivos PDF a texto plano (*plaintext*).
+* Limpieza de ruido tipográfico y estandarización de nomenclaturas jurídicas.
+
+
+* **Fase 2: Estructuración y Base de Datos Local**
+* Implementación de expresiones regulares (Regex) para aislar entidades clave (CUITs, razones sociales, tipos societarios).
+* Migración a una base de datos local SQLite o DuckDB optimizada para consultas eficientes.
+
+
+* **Fase 3: Motor CLI y Sistema de Alertas**
+* Desarrollo de una interfaz de comandos para consultas rápidas y simulación de un *feed* cronológico corporativo.
+
+
+
+---
+
+## 🔗 Enlaces Relacionados
+
+* **Análisis Topológico e Investigación Societaria:** [Repositorio Principal OSINT & Maltego](https://github.com/tlondero-sec/osint-corporate-intelligence-/tree/main)
